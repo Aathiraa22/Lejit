@@ -1,0 +1,43 @@
+/* src/Forgot.css */
+.forgot-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(225, 222, 220, 0.1);
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  .input-group .icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px 10px 10px 30px; /* Added padding for icon */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .send-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .send-button:hover {
+    background-color: #0056b3;
+  }
+  

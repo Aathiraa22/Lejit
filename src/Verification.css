@@ -1,0 +1,46 @@
+/* src/Verification.css */
+
+.verification-container {
+    text-align: center;
+   
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.code-inputs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.code-inputs input {
+    width: 10px;
+    height: 10px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.continue-button {
+    margin-top: 20px;
+    padding: 5px 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.resend-button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Add custom checkbox size */
+.checkbox-container input[type="checkbox"] {
+    width: 5px;
+    height: 5px;
+}

@@ -1,0 +1,160 @@
+
+/* src/LawyerSignIn.css */
+
+.signin-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px 40px; /* Add padding for the icon */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.input-group .icon {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  font-size: 18px;
+  color: #888;
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.forgot-password {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.signin-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signin-button:hover {
+  background-color: #0056b3;
+}
+
+.alternative-login {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.or {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.google-button, .facebook-button {
+  display: inline-flex;
+  align-items: center;
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.google-button {
+  background-color: #4285F4;
+  color: white;
+}
+
+.facebook-button {
+  background-color: #3b5998;
+  color: white;
+}
+
+span {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+/* Container for the custom checkbox styled as a radio button */
+.styled-checkbox {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  padding-left: 30px; /* Space for the custom checkbox */
+}
+
+/* Hide the default checkbox */
+.styled-checkbox input {
+  display: none;
+}
+
+/* Custom checkmark styled as a round radio button */
+.styled-checkbox .checkmark {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 50%; /* Make it round like a radio button */
+  border: 2px solid #ccc;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* When the checkbox is checked, make it appear like a radio button */
+.styled-checkbox input:checked + .checkmark {
+  background-color: #4caf50; /* Green when checked */
+  border-color: #4caf50;
+}
+
+/* Add the inner circle to make it look like a radio button */
+.styled-checkbox .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the inner circle when the checkbox is checked */
+.styled-checkbox input:checked + .checkmark:after {
+  display: block;
+}
+
+/* Inner circle (styled like a radio button's selected state) */
+.styled-checkbox .checkmark:after {
+  top: 5px;
+  left: 5px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+
+
